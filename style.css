@@ -1,0 +1,15 @@
+#wrapper {
+    display: flex;
+}
+
+#left-img-cont {
+    border: 1px solid black; 
+    min-width: 33vw;
+    max-width: 33vw;
+}
+
+#right-text-cont {
+    border: 1px solid black;
+    min-width: 67vw;
+    max-width: 67vw;
+}
