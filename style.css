@@ -18,8 +18,18 @@
 
 #odin-img-cont {
     position: absolute;
-    background: black; 
-    opacity: 0.1; 
+    min-width: 480px;
+    max-width: 480px;
+    max-height: 128px; 
+    min-height: 128px;
+    background-color: black; 
+    opacity: 0.6; 
+    margin-top: 256px;
+}
+
+#odin-img {
+    max-height: 128px;
+    padding-left: 192px;
 }
 
 #right-text-cont {
