@@ -67,6 +67,7 @@
 
 :link {
     color: white;
+    font-weight: 400;
 }
 
 #right-text-cont {
@@ -93,4 +94,32 @@
 #mid-cont {
     min-height: 256px;
     max-height: 256px;
+}
+
+#bot-btn-wrapper {
+    margin-left: 36px;
+    margin-top: 28px;  
+}
+
+#account-btn {
+    width: 168px;
+    height: 36px; 
+    background-color: #596D48;
+    font-family: sans-serif; 
+    color: white; 
+    font-weight: 600; 
+    border: none; 
+    border-radius: 5px; 
+    box-shadow: 2px 2px 2px gray; 
+}
+
+#account-txt {
+    font-family: sans-serif;
+    font-size: 14px; 
+    padding-top: 16px;
+}
+
+a {
+    color: #596D48;
+    font-weight: 600;
 }
