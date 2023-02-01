@@ -143,6 +143,11 @@ input.invalid {
     border: 2px solid red;
 }
 
+input:focus {
+    border: 2px solid blue;
+    box-shadow: 2px 2px 2px gray; 
+}
+
 #error-txt-cont::before {
     content: "* Passwords do not match";
     font-size: 10px;
