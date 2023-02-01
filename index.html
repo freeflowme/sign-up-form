@@ -15,20 +15,60 @@
                 <img id=odin-img src="images/odin-lined.png">
                 <p id="odin-txt">ODIN</p>
             </div>
+            <div id="credit-txt-cont">
+                <p id="credit-txt">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com"> Unsplash</a></p>
+            </div>
         </div>
         <div id="right-text-cont">
             <div id="top-cont">
-                <p> 
-                This is not a real online service!  You know you need something <br>
-                like this in your life to help you realize your deepest dreams. <br>
-                Sign up <em>now</em> to get started. <br>
-                </p>
-                <p> You <em>know</em> you want to.</p>
+                <div id="top-txt-wrapper">
+                    <p> 
+                    This is not a real online service!  You know you need something <br>
+                    like this in your life to help you realize your deepest dreams. <br>
+                    Sign up <em>now</em> to get started. <br>
+                    </p>
+                    <p> You <em>know</em> you want to.</p>
+                </div>
             </div>
             <div id="mid-cont">
-                <p>Some filler</p>
+                <p id="form-txt">Let's do this!</p>
+                <form action="" method="post">
+                    <div id="left-form-column">
+                        <div id="form-field">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name" name="first_name" placeholder="Thor">
+                        </div>
+                        <div id="form-field">
+                            <label for="user_email">EMAIL</label>
+                            <input type="email" id="user_email" name="email">
+                        </div>
+                        <div id="form-field">
+                            <label for="user_password">PASSWORD</label>
+                            <input type="password" class="invalid" id="user_password" name="password">
+                        </div>
+                        <div id="error-txt-cont" class="invalid"></div>
+                    </div>
+                    <div id="right-form-column">
+                        <div id="form-field">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name" cname="last_name" placeholder="Odinson">
+                        </div>
+                        <div id="form-field">
+                            <label for="amount">PHONE NUMBER</label>
+                            <input type="number" id="amount" name="amount">
+                        </div>
+                        <div id="form-field">
+                            <label for="user_password">CONFIRM PASSWORD</label>
+                            <input type="password" class="invalid" id="confirm_password" name="password">
+                        </div>
+                    </div>
+                </form>
             </div>
             <div id="bot-cont">
+                <div id="bot-btn-wrapper">
+                    <button id="account-btn">Create Account</button>
+                    <p id="account-txt">Already have an account? <a>Log in<a></p>
+                </div>
             </div>
         </div>
     </div>
