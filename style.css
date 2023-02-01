@@ -95,6 +95,61 @@
     max-height: 256px;
 }
 
+#form-txt {
+    font-family: sans-serif; 
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 36px; 
+}
+
+form {
+    display: flex;
+    margin-left: 36px;
+}
+
+#left-form-column, #right-form-column {
+    display: flex;
+    flex-direction: column;
+}
+
+#right-form-column {
+    margin-left: 64px; 
+}
+
+#form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+#first_name, #last_name, #user_email, #amount {
+    margin-bottom: 18px;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 12px; 
+    font-weight: 600;
+}
+
+input {
+    min-width: 232px;
+    max-width: 232px;
+    min-height: 24px; 
+    border: 2px solid #E5E7EB;
+    border-radius: 3px;
+}
+
+input.invalid {
+    border: 2px solid red;
+}
+
+#error-txt-cont::before {
+    content: "* Passwords do not match";
+    font-size: 10px;
+    color: red;
+
+}
+
 #bot-btn-wrapper {
     margin-left: 36px;
     margin-top: 28px;  
